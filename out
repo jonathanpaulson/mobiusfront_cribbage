@@ -1,10 +1,10 @@
 Best possible score: 106
-Play card from stack 1 (which is a 13) scoring 0 total=0
-Play card from stack 1 (which is a 1) scoring 0 total=0
-Play card from stack 1 (which is a 12) scoring 0 total=0
+Play card from stack 1 (which is a K) scoring 0 total=0
+Play card from stack 1 (which is a A) scoring 0 total=0
+Play card from stack 1 (which is a Q) scoring 0 total=0
 Play card from stack 2 (which is a 9) scoring 0 total=0
 NEW STACK
-Play card from stack 1 (which is a 11) scoring 2 total=2
+Play card from stack 1 (which is a J) scoring 2 total=2
 Play card from stack 1 (which is a 10) scoring 0 total=2
 Play card from stack 1 (which is a 10) scoring 2 total=4
 NEW STACK
@@ -14,15 +14,15 @@ Play card from stack 4 (which is a 4) scoring 5 total=9
 Play card from stack 1 (which is a 7) scoring 4 total=13
 Play card from stack 1 (which is a 3) scoring 5 total=18
 Play card from stack 2 (which is a 2) scoring 6 total=24
-Play card from stack 2 (which is a 1) scoring 7 total=31
+Play card from stack 2 (which is a A) scoring 7 total=31
 NEW STACK
 Play card from stack 4 (which is a 10) scoring 0 total=31
 Play card from stack 4 (which is a 9) scoring 0 total=31
 Play card from stack 4 (which is a 8) scoring 3 total=34
 NEW STACK
-Play card from stack 4 (which is a 13) scoring 0 total=34
-Play card from stack 2 (which is a 12) scoring 0 total=34
-Play card from stack 4 (which is a 12) scoring 2 total=36
+Play card from stack 4 (which is a K) scoring 0 total=34
+Play card from stack 2 (which is a Q) scoring 0 total=34
+Play card from stack 4 (which is a Q) scoring 2 total=36
 NEW STACK
 Play card from stack 3 (which is a 9) scoring 0 total=36
 Play card from stack 1 (which is a 6) scoring 2 total=38
@@ -43,10 +43,10 @@ Play card from stack 2 (which is a 8) scoring 2 total=70
 Play card from stack 3 (which is a 8) scoring 6 total=76
 Play card from stack 3 (which is a 7) scoring 2 total=78
 NEW STACK
-Play card from stack 3 (which is a 12) scoring 0 total=78
-Play card from stack 2 (which is a 1) scoring 0 total=78
-Play card from stack 3 (which is a 1) scoring 2 total=80
-Play card from stack 3 (which is a 13) scoring 0 total=80
+Play card from stack 3 (which is a Q) scoring 0 total=78
+Play card from stack 2 (which is a A) scoring 0 total=78
+Play card from stack 3 (which is a A) scoring 2 total=80
+Play card from stack 3 (which is a K) scoring 0 total=80
 Play card from stack 4 (which is a 9) scoring 2 total=82
 NEW STACK
 Play card from stack 1 (which is a 6) scoring 0 total=82
@@ -56,9 +56,9 @@ Play card from stack 2 (which is a 3) scoring 4 total=91
 Play card from stack 4 (which is a 2) scoring 5 total=96
 Play card from stack 1 (which is a 10) scoring 0 total=96
 NEW STACK
-Play card from stack 3 (which is a 11) scoring 2 total=98
-Play card from stack 4 (which is a 11) scoring 2 total=100
-Play card from stack 4 (which is a 11) scoring 6 total=106
+Play card from stack 3 (which is a J) scoring 2 total=98
+Play card from stack 4 (which is a J) scoring 2 total=100
+Play card from stack 4 (which is a J) scoring 6 total=106
 NEW STACK
-Play card from stack 2 (which is a 13) scoring 0 total=106
+Play card from stack 2 (which is a K) scoring 0 total=106
 Play card from stack 3 (which is a 2) scoring 0 total=106
