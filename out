@@ -1,0 +1,64 @@
+Best possible score: 105
+Play card from stack 1 (which is a 2) scoring 0 total=0
+Play card from stack 1 (which is a 9) scoring 0 total=0
+Play card from stack 3 (which is a 10) scoring 0 total=0
+Play card from stack 4 (which is a 11) scoring 5 total=5
+NEW STACK
+Play card from stack 1 (which is a 12) scoring 0 total=5
+Play card from stack 3 (which is a 13) scoring 0 total=5
+Play card from stack 3 (which is a 11) scoring 3 total=8
+NEW STACK
+Play card from stack 1 (which is a 5) scoring 0 total=8
+Play card from stack 2 (which is a 6) scoring 0 total=8
+Play card from stack 2 (which is a 4) scoring 5 total=13
+Play card from stack 3 (which is a 7) scoring 4 total=17
+Play card from stack 3 (which is a 3) scoring 5 total=22
+Play card from stack 2 (which is a 2) scoring 6 total=28
+NEW STACK
+Play card from stack 4 (which is a 11) scoring 2 total=30
+Play card from stack 3 (which is a 10) scoring 0 total=30
+Play card from stack 4 (which is a 9) scoring 3 total=33
+NEW STACK
+Play card from stack 2 (which is a 8) scoring 0 total=33
+Play card from stack 3 (which is a 12) scoring 0 total=33
+Play card from stack 4 (which is a 12) scoring 2 total=35
+Play card from stack 2 (which is a 1) scoring 0 total=35
+Play card from stack 4 (which is a 1) scoring 2 total=37
+NEW STACK
+Play card from stack 2 (which is a 8) scoring 0 total=37
+Play card from stack 2 (which is a 3) scoring 0 total=37
+Play card from stack 4 (which is a 4) scoring 2 total=39
+Play card from stack 1 (which is a 5) scoring 3 total=42
+Play card from stack 2 (which is a 6) scoring 4 total=46
+Play card from stack 3 (which is a 2) scoring 5 total=51
+NEW STACK
+Play card from stack 1 (which is a 11) scoring 2 total=53
+Play card from stack 1 (which is a 9) scoring 0 total=53
+Play card from stack 3 (which is a 10) scoring 3 total=56
+NEW STACK
+Play card from stack 1 (which is a 13) scoring 0 total=56
+Play card from stack 1 (which is a 13) scoring 2 total=58
+Play card from stack 4 (which is a 10) scoring 0 total=58
+NEW STACK
+Play card from stack 1 (which is a 8) scoring 0 total=58
+Play card from stack 2 (which is a 7) scoring 2 total=60
+Play card from stack 3 (which is a 6) scoring 3 total=63
+Play card from stack 3 (which is a 13) scoring 2 total=65
+NEW STACK
+Play card from stack 4 (which is a 5) scoring 0 total=65
+Play card from stack 2 (which is a 1) scoring 0 total=65
+Play card from stack 2 (which is a 4) scoring 0 total=65
+Play card from stack 4 (which is a 5) scoring 2 total=67
+Play card from stack 1 (which is a 3) scoring 3 total=70
+Play card from stack 4 (which is a 2) scoring 5 total=75
+Play card from stack 4 (which is a 6) scoring 6 total=81
+Play card from stack 2 (which is a 1) scoring 6 total=87
+Play card from stack 4 (which is a 4) scoring 8 total=95
+NEW STACK
+Play card from stack 4 (which is a 7) scoring 0 total=95
+Play card from stack 1 (which is a 8) scoring 2 total=97
+Play card from stack 2 (which is a 9) scoring 3 total=100
+Play card from stack 1 (which is a 7) scoring 5 total=105
+NEW STACK
+Play card from stack 3 (which is a 12) scoring 0 total=105
+Play card from stack 3 (which is a 3) scoring 0 total=105
