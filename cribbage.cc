@@ -72,7 +72,7 @@ vector<vector<ll>> IN;
 // How big is this state space? We have between 0 and 13 cards left in each pile - 14 options for each.
 // There are 32 possible stack totals (anything from 0 to 31).
 // There are 13 possibilities for each of the 6 most recent cards in the stack.
-// So the total state space here is 14**4 * 32 * 13**6 = 5*10^12. This is a big improvement on our first
+// So the total state space here is 14**4 * 32 * 13**6 = 6*10^12. This is a big improvement on our first
 // try, but still too much.
 //
 // However, there is one more observation. Instead of tracking which cards are at the top of the current
@@ -104,14 +104,14 @@ struct State {
     }
     return true;
   }
+  // Which card is currently on the top of pile [move]
+  ll card_of(ll move) const {
+    return IN[move][I[move]];
+  }
   // Can we take a card from this pile now i.e. is the pile non-empty
   // and adding it to the current stack wouldn't exceed 31?
   bool valid_move(ll move) const {
     return I[move] < IN[move].size() && (sum + value_of(card_of(move)) <= 31);
-  }
-  // Which card is currently on the top of pile [move]
-  ll card_of(ll move) const {
-    return IN[move][I[move]];
   }
   // How many points would we immediately score by playing the card on top of pile [move]
   ll points_of(ll move) const {
@@ -141,6 +141,7 @@ struct State {
       if(count == 1) { ans += 2; } // pair
       else if(count == 2) { ans += 6; } // triple
       else if(count == 3) { ans += 12; } // quad
+      else { assert(false); }
     }
 
     // Straights
@@ -226,6 +227,12 @@ struct State {
   // ..
   // sum is the "digit" in the 4^6 place (since there are 4^6 options for MOVE).
   // I[0] is the "digit" in the 4^6*32 place
+  //
+  // MOVE[0] is key()%4
+  // MOVE[1] is (key()/4)%4
+  // sum is (key()/4**6)%32
+  // I[0] is (key()/(4**6*32))%14
+  // I[1] is (key()/(4**6*32*14))%14
   //
   // This two-step strategy is usually a good way to convert a DP State into an index.
   ll key() const { 
@@ -362,7 +369,7 @@ int main() {
         if(points + S.points_of(move)+dp(S.move(move))==best) {
           found_move = true;
           points += S.points_of(move);
-          cerr << "Play card from stack " << (move+1) << " (which is a " << cardToString(S.card_of(move)) << ") scoring " << S.points_of(move) << " total=" << points << endl;
+          cout << "Play card from stack " << (move+1) << " (which is a " << cardToString(S.card_of(move)) << ") scoring " << S.points_of(move) << " total=" << points << endl;
           S = S.move(move);
         }
       }
@@ -371,7 +378,7 @@ int main() {
     // we must have done that.
     if(!found_move) {
       assert(points + dp(S.clear())==best);
-      cerr << "NEW STACK" << endl;
+      cout << "NEW STACK" << endl;
       S = S.clear();
     }
   }

@@ -1,4 +1,4 @@
-Uses dynamic programming to get the best possible score for any deal.
+Uses dynamic programming to figure out the best way to play out each game.
 
 # Usage
 Manually create an input file input.txt with the four card piles (listed in order from top to bottom).
@@ -17,7 +17,7 @@ g++ -std=c++17 -O3 -Wall -o cribbage
 
 Run the program. This takes around 20 seconds:
 ```
-./cribbage < I.0 |& tee out
+./cribbage < input.txt |& tee out
 ```
 
 Follow the directions:
@@ -28,19 +28,15 @@ less -RS out
 Example output:
 ```
 Best possible score: 106
-Play card from stack 1 (which is a 13) scoring 0 total=0
-Play card from stack 1 (which is a 1) scoring 0 total=0
-Play card from stack 1 (which is a 12) scoring 0 total=0
+Play card from stack 1 (which is a K) scoring 0 total=0
+Play card from stack 1 (which is a A) scoring 0 total=0
+Play card from stack 1 (which is a Q) scoring 0 total=0
 Play card from stack 2 (which is a 9) scoring 0 total=0
 NEW STACK
-Play card from stack 1 (which is a 11) scoring 2 total=2
+Play card from stack 1 (which is a J) scoring 2 total=2
 Play card from stack 1 (which is a 10) scoring 0 total=2
 Play card from stack 1 (which is a 10) scoring 2 total=4
 NEW STACK
 Play card from stack 1 (which is a 5) scoring 0 total=4
-Play card from stack 4 (which is a 6) scoring 0 total=4
-Play card from stack 4 (which is a 4) scoring 5 total=9
-Play card from stack 1 (which is a 7) scoring 4 total=13
-Play card from stack 1 (which is a 3) scoring 5 total=18
-<more lines>
+...
 ```
