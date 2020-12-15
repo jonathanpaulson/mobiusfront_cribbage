@@ -1,5 +1,7 @@
 Uses dynamic programming to figure out the best way to play out each game.
 
+Video demo + explanation: https://www.youtube.com/watch?v=CB4anjWd3Hg
+
 # Usage
 Manually create an input file input.txt with the four card piles (listed in order from top to bottom).
 Example input:
